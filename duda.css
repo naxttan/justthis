@@ -1,0 +1,54 @@
+.kyy {
+    text-align: left;
+   
+   }
+h1{
+    text-align: center;
+}
+body{
+    background-color: gray  ;
+
+}
+p{
+    font-size: larger;
+}
+a {
+    color: blanchedalmond;
+    
+}
+nav a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.k {
+    border-color: black;
+    border-width: 15px;
+    border-style: inset;
+    display: inline-block;
+      }
+      @media(max-width: 420px) {
+        h1 {
+            color: blueviolet;
+            p{
+                color: blueviolet;
+            }
+        }
+      }
+      @media(max-width: 600px) {
+        h1 {
+            color: yellow
+           }   p { color: yellow;
+                
+            }
+        }
+      
+      @media(max-width: 720px) {
+        h1{
+            font-style: italic;
+            color: brown;
+            p{
+         color: brown;
+            }
+        }
+      }
